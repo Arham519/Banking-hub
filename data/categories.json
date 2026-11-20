@@ -1,0 +1,138 @@
+[
+  {
+    "id": "islamic-banking",
+    "name": "Islamic Banking",
+    "short_description": "Shariah-compliant banking free of Riba (interest), adhering to Islamic jurisprudence and AAOIFI standards.",
+    "icon": "fa-kaaba",
+    "slug": "islamic-banking",
+    "url": "categories/islamic-banking.html",
+    "count": 6,
+    "badge": "100% Shariah Compliant",
+    "color": "#167D70",
+    "key_features": [
+      "Zero Riba (interest) prohibition",
+      "Asset-backed financing models",
+      "Mudarabah, Musharakah, and Ijarah structures",
+      "Dedicated Shariah Supervisory Boards"
+    ]
+  },
+  {
+    "id": "conventional-banking",
+    "name": "Conventional Banking",
+    "short_description": "Mainstream interest-based banking institutions providing commercial, retail, and corporate treasury operations across Pakistan.",
+    "icon": "fa-building-columns",
+    "slug": "conventional-banking",
+    "url": "categories/conventional-banking.html",
+    "count": 10,
+    "badge": "Commercial Giants",
+    "color": "#102B35",
+    "key_features": [
+      "Extensive nationwide branch networks",
+      "Comprehensive trade finance & corporate services",
+      "Conventional credit card and loan products",
+      "Dedicated Islamic banking window branches"
+    ]
+  },
+  {
+    "id": "online-banking",
+    "name": "Online Banking",
+    "short_description": "Robust 24/7 web-based portals for bill payments, RTGS, funds transfers, e-statements, and account administration.",
+    "icon": "fa-globe",
+    "slug": "online-banking",
+    "url": "categories/online-banking.html",
+    "count": 16,
+    "badge": "Web Portals & Security",
+    "color": "#0284C7",
+    "key_features": [
+      "Secure 2FA biometric and OTP authorization",
+      "Utility bills, fee payments, and tax collections (1Link / 1Bill)",
+      "Inter-bank funds transfer (1Link IBFT / RTGS)",
+      "Chequebook requests and pay-order issuance"
+    ]
+  },
+  {
+    "id": "digital-banking",
+    "name": "Digital Banking",
+    "short_description": "Next-generation branchless banking apps, instant biometric digital onboarding, Raast P2P/P2M, and virtual debit cards.",
+    "icon": "fa-mobile-screen-button",
+    "slug": "digital-banking",
+    "url": "categories/digital-banking.html",
+    "count": 14,
+    "badge": "Next-Gen Fintech",
+    "color": "#6366F1",
+    "key_features": [
+      "State Bank Raast instant payment integration",
+      "Digital account opening with NADRA biometric verification",
+      "QR-code merchant payments and tap-to-pay",
+      "Virtual debit cards and mobile wallet integration"
+    ]
+  },
+  {
+    "id": "home-financing",
+    "name": "Home Financing",
+    "short_description": "Housing finance solutions including Islamic Diminishing Musharakah and conventional home mortgage facilities.",
+    "icon": "fa-house-chimney",
+    "slug": "home-financing",
+    "url": "categories/home-financing.html",
+    "count": 12,
+    "badge": "Property Solutions",
+    "color": "#0D9488",
+    "key_features": [
+      "Purchase, construction, renovation, and plot + build options",
+      "Flexible tenures from 3 to 25 years",
+      "Islamic Diminishing Musharakah (joint ownership model)",
+      "Co-applicant income pooling facility"
+    ]
+  },
+  {
+    "id": "auto-financing",
+    "name": "Auto Financing",
+    "short_description": "Vehicle financing choices including Islamic Car Ijarah (rental) and conventional auto loans for new and used cars.",
+    "icon": "fa-car",
+    "slug": "auto-financing",
+    "url": "categories/auto-financing.html",
+    "count": 14,
+    "badge": "Vehicle Financing",
+    "color": "#E9B94B",
+    "key_features": [
+      "Financing for local, imported, new, and used vehicles",
+      "Competitive profit rates and reducing markups",
+      "Comprehensive Islamic Takaful or conventional car insurance",
+      "Flexible repayment tenures up to 5 or 7 years (per SBP PRs)"
+    ]
+  },
+  {
+    "id": "personal-financing",
+    "name": "Personal Financing",
+    "short_description": "Consumer loans and Islamic personal financing (Tawarruq/Murabaha) for personal emergencies, education, or wedding expenses.",
+    "icon": "fa-user-tag",
+    "slug": "personal-financing",
+    "url": "categories/personal-financing.html",
+    "count": 11,
+    "badge": "Personal Capital",
+    "color": "#F59E0B",
+    "key_features": [
+      "Collateral-free financing for salaried & self-employed individuals",
+      "Flexible tenures from 1 to 5 years",
+      "Quick processing and minimal documentation",
+      "Early settlement flexibility"
+    ]
+  },
+  {
+    "id": "business-financing",
+    "name": "Business Financing",
+    "short_description": "Working capital, SME credit lines, letter of credit (LC), bank guarantees, and export refinance schemes.",
+    "icon": "fa-briefcase",
+    "slug": "business-financing",
+    "url": "categories/business-financing.html",
+    "count": 13,
+    "badge": "SME & Corporate",
+    "color": "#3B82F6",
+    "key_features": [
+      "Working capital and term financing facilities",
+      "State Bank subsidized SME and export refinance schemes",
+      "Letters of credit (LC) and bank performance guarantees",
+      "Corporate treasury and cash management solutions"
+    ]
+  }
+]

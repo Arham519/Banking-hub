@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="100%" height="100%">
+  <rect width="400" height="250" fill="#102B35"/>
+  <rect x="20" y="20" width="360" height="210" rx="16" fill="#0284C7" fill-opacity="0.15" stroke="#0284C7" stroke-width="2"/>
+  <circle cx="200" cy="105" r="45" fill="#0284C7" fill-opacity="0.25"/>
+  <!-- Lightning bolt / instant payment -->
+  <polygon points="205,65 175,115 198,115 190,145 225,95 200,95" fill="#38BDF8"/>
+  <text x="200" y="185" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">SBP Raast Payments</text>
+  <text x="200" y="208" font-family="'Inter', sans-serif" font-size="12" fill="#38BDF8" text-anchor="middle">Instant P2P &amp; Merchant QR</text>
+</svg>

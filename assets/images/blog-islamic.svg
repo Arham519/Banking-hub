@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="100%" height="100%">
+  <rect width="400" height="250" fill="#102B35"/>
+  <rect x="20" y="20" width="360" height="210" rx="16" fill="#167D70" fill-opacity="0.2" stroke="#167D70" stroke-width="2"/>
+  <circle cx="200" cy="110" r="50" fill="#167D70" fill-opacity="0.3"/>
+  <path d="M185 85 L215 85 L215 135 L185 135 Z" fill="#E9B94B"/>
+  <polygon points="200,65 175,85 225,85" fill="#E9B94B"/>
+  <circle cx="200" cy="110" r="28" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="200" y="190" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">Islamic Banking in Pakistan</text>
+  <text x="200" y="210" font-family="'Inter', sans-serif" font-size="12" fill="#E9B94B" text-anchor="middle">Shariah Principles &amp; Riba Prohibition</text>
+</svg>

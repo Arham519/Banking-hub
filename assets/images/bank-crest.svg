@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="crestGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="60%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield Badge -->
+  <path d="M50 5 L88 20 C88 55 50 92 50 92 C50 92 12 55 12 20 Z" fill="url(#crestGrad)" stroke="url(#cyanGrad)" stroke-width="2.5"/>
+  <!-- Inner Shield Glow -->
+  <path d="M50 12 L80 24 C80 50 50 82 50 82 C50 82 20 50 20 24 Z" fill="none" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="1.5"/>
+  <!-- Bank Pillar Columns -->
+  <!-- Pediment (Roof) -->
+  <polygon points="50,26 30,36 70,36" fill="url(#goldGrad)"/>
+  <!-- Architrave -->
+  <rect x="29" y="38" width="42" height="3" rx="1" fill="#FFFFFF"/>
+  <!-- Columns -->
+  <rect x="33" y="43" width="5" height="18" rx="1" fill="url(#cyanGrad)"/>
+  <rect x="42" y="43" width="5" height="18" rx="1" fill="#FFFFFF"/>
+  <rect x="53" y="43" width="5" height="18" rx="1" fill="#FFFFFF"/>
+  <rect x="62" y="43" width="5" height="18" rx="1" fill="url(#cyanGrad)"/>
+  <!-- Base steps -->
+  <rect x="28" y="63" width="44" height="4" rx="1.5" fill="#FFFFFF"/>
+  <rect x="25" y="68" width="50" height="3.5" rx="1" fill="url(#goldGrad)"/>
+  <!-- Star Accent -->
+  <circle cx="50" cy="74" r="2.5" fill="url(#goldGrad)"/>
+</svg>

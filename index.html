@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banking Hub – Complete Directory, Islamic Banking &amp; Financing Comparison</title>
+  <meta name="description" content="Explore and compare all major commercial and Islamic banks in Pakistan. Calculate home, car, and personal financing installments, view verified branches, ATMs, and digital banking services.">
+  <link rel="canonical" href="https://pakistanbankinghub.pk/">
+  <meta property="og:title" content="Banking Hub – Complete Banking Directory">
+  <meta property="og:description" content="Verified directory of Pakistani banks, Shariah-compliant Islamic institutions, and intelligent loan calculators.">
+  <meta property="og:type" content="website">
+
+  <!-- FontAwesome Icons & Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Regulatory Ticker Bar -->
+  <aside class="top-notice-bar" aria-label="Official Banking Notice">
+    <div class="container">
+      <div>
+        <span class="notice-pill"><i class="fa-solid fa-scale-balanced"></i> SBP COMPLIANCE</span>
+        <span>Independent banking directory following State Bank of Pakistan (SBP) &amp; AAOIFI Shariah standards.</span>
+      </div>
+      <div>
+        <span><i class="fa-solid fa-clock"></i> Benchmark KIBOR &amp; Policy Rates Updated Regularly</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Navbar -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        <a href="index.html" class="brand-logo" aria-label="Banking Hub Home">
+          <img src="assets/images/bank-crest.svg" alt="Banking Hub Logo" class="brand-crest" width="44" height="44">
+          <div class="brand-text">
+            <span class="brand-title">BANKING <span>HUB</span></span>
+            </div>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="banks.html" class="nav-link">Explore Banks</a></li>
+          
+          <!-- Dropdown for Categories -->
+          <li class="nav-dropdown">
+            <a href="categories.html" class="nav-link">Categories <i class="fa-solid fa-chevron-down" style="font-size: 0.75rem;"></i></a>
+            <div class="nav-dropdown-menu">
+              <a href="categories/islamic-banking.html" class="dropdown-item">
+                <i class="fa-solid fa-moon text-emerald"></i> Islamic Banking
+              </a>
+              <a href="categories/conventional-banking.html" class="dropdown-item">
+                <i class="fa-solid fa-building-columns text-navy"></i> Conventional Banking
+              </a>
+              <a href="categories/digital-banking.html" class="dropdown-item">
+                <i class="fa-solid fa-mobile-screen-button text-emerald"></i> Digital Banking &amp; Raast
+              </a>
+              <a href="categories/online-banking.html" class="dropdown-item">
+                <i class="fa-solid fa-globe text-navy"></i> Online Internet Banking
+              </a>
+              <a href="categories/home-financing.html" class="dropdown-item">
+                <i class="fa-solid fa-house-chimney text-emerald"></i> Home Financing
+              </a>
+              <a href="categories/auto-financing.html" class="dropdown-item">
+                <i class="fa-solid fa-car text-navy"></i> Auto Financing (Ijarah / Loan)
+              </a>
+              <a href="categories/personal-financing.html" class="dropdown-item">
+                <i class="fa-solid fa-user-tag text-emerald"></i> Personal Financing
+              </a>
+            </div>
+          </li>
+
+          <li><a href="calculator.html" class="nav-link">Loan Calculator</a></li>
+          <li><a href="compare.html" class="nav-link">Compare</a></li>
+          <li><a href="blogs.html" class="nav-link">Blog</a></li>
+          </ul>
+
+        <div class="nav-actions">
+          <a href="banks.html?saved=1" class="action-badge-btn" title="Saved Favorite Banks" aria-label="Saved Banks">
+            <i class="fa-solid fa-heart"></i>
+            <span class="badge-count saved-count-badge" style="display: none;">0</span>
+          </a>
+          <button class="mobile-menu-toggle" aria-label="Open Mobile Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-backdrop"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation Drawer">
+    <div class="mobile-drawer-header">
+      <div class="brand-logo">
+        <img src="assets/images/bank-crest.svg" alt="Logo" class="brand-crest" width="36" height="36">
+        <span class="brand-title" style="font-size: 1.05rem;">BANKING <span>HUB</span></span>
+      </div>
+      <button class="mobile-drawer-close btn-icon btn-outline-navy" aria-label="Close Mobile Drawer">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="index.html" class="mobile-nav-link"><span><i class="fa-solid fa-house"></i> Home</span></a></li>
+      <li><a href="banks.html" class="mobile-nav-link"><span><i class="fa-solid fa-building-columns"></i> Explore Banks</span></a></li>
+      <li><a href="categories.html" class="mobile-nav-link"><span><i class="fa-solid fa-layer-group"></i> All Categories</span></a></li>
+      <li><a href="categories/islamic-banking.html" class="mobile-nav-link"><span><i class="fa-solid fa-moon"></i> Islamic Banking</span></a></li>
+      <li><a href="categories/conventional-banking.html" class="mobile-nav-link"><span><i class="fa-solid fa-landmark"></i> Conventional Banking</span></a></li>
+      <li><a href="categories/digital-banking.html" class="mobile-nav-link"><span><i class="fa-solid fa-mobile-screen"></i> Digital &amp; Raast</span></a></li>
+      <li><a href="categories/home-financing.html" class="mobile-nav-link"><span><i class="fa-solid fa-house-chimney"></i> Home Financing</span></a></li>
+      <li><a href="categories/auto-financing.html" class="mobile-nav-link"><span><i class="fa-solid fa-car"></i> Auto Financing</span></a></li>
+      <li><a href="calculator.html" class="mobile-nav-link"><span><i class="fa-solid fa-calculator"></i> Loan Calculator</span></a></li>
+      <li><a href="compare.html" class="mobile-nav-link"><span><i class="fa-solid fa-code-compare"></i> Compare Banks</span></a></li>
+      <li><a href="blogs.html" class="mobile-nav-link"><span><i class="fa-solid fa-newspaper"></i> Blog</span></a></li>
+      </ul>
+    </aside>
+
+  <!-- Hero Section -->
+  <main class="main-content">
+    <section class="hero-section">
+      <div class="hero-pattern"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fa-solid fa-shield-halved"></i> 100% Verified Directory of Pakistani Banks
+          </div>
+          <h1 class="hero-title">
+            Find the Right Bank for Your <span class="highlight">Financial Needs</span>
+          </h1>
+          <p class="hero-desc">
+            Pakistan’s premier banking directory and fintech intelligence portal. Explore Shariah-compliant Islamic banks, top conventional institutions, compare credit cards, and calculate your exact auto or home financing installment with verified KIBOR models.
+          </p>
+
+          <!-- Search Bar -->
+          <form class="hero-search-box global-search-form" action="banks.html" method="GET">
+            <div class="hero-search-input-wrap">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" name="search" class="hero-search-input" placeholder="Search by bank name (e.g., Meezan, HBL, Alfalah, UBL)..." required>
+            </div>
+            <button type="submit" class="btn btn-gold btn-sm">
+              <i class="fa-solid fa-arrow-right"></i> Search Banks
+            </button>
+          </form>
+
+          <!-- Quick Stats -->
+          <div class="hero-stats-row">
+            <div class="hero-stat-item">
+              <span class="hero-stat-number">10,000+</span>
+              <span class="hero-stat-label">Verified Branches</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-number">6+</span>
+              <span class="hero-stat-label">Full-Fledged Islamic Banks</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-number">100%</span>
+              <span class="hero-stat-label">Riba-Free &amp; Conventional Specs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img src="assets/images/bank-hero.svg" alt="Fintech Banking Directory Hub" width="580" height="430">
+        </div>
+      </div>
+    </section>
+
+    <!-- Explore Categories Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-layer-group"></i> Categories</span>
+          <h2 class="section-title">Explore Banking Categories</h2>
+          <p class="section-subtitle">
+            Browse specialized banking services tailored for Pakistani consumers, corporate entities, overseas expatriates, and investors.
+          </p>
+        </div>
+
+        <div class="categories-grid" id="homeCategoriesGrid">
+          <!-- Populated dynamically via categories.json -->
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="categories.html" class="btn btn-outline btn-lg">
+            View All Categories <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Islamic Banks Section -->
+    <section class="section" style="background-color: var(--emerald-bg);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" style="background: #DEF7EC; color: #03543F;">
+            <i class="fa-solid fa-moon"></i> Shariah Compliant
+          </span>
+          <h2 class="section-title">Featured Islamic Banks in Pakistan</h2>
+          <p class="section-subtitle">
+            Full-fledged Islamic financial institutions operating exclusively without Riba (interest), governed by distinguished Shariah supervisory boards.
+          </p>
+        </div>
+
+        <div class="bank-grid" id="featuredIslamicGrid">
+          <!-- Rendered dynamically -->
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="categories/islamic-banking.html" class="btn btn-primary btn-lg">
+            Explore All Islamic Banks <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Conventional Commercial Banks -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-building-columns"></i> Market Leaders</span>
+          <h2 class="section-title">Popular Commercial Banks in Pakistan</h2>
+          <p class="section-subtitle">
+            Established financial institutions driving Pakistan’s commercial economy, international trade finance, and digital innovation.
+          </p>
+        </div>
+
+        <div class="bank-grid" id="featuredConventionalGrid">
+          <!-- Rendered dynamically -->
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="banks.html" class="btn btn-secondary btn-lg">
+            Explore All Pakistani Banks <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compare Banks Banner / Callout -->
+    <section class="section-compact" style="background: var(--navy); color: var(--white);">
+      <div class="container" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 2rem;">
+        <div>
+          <span class="badge badge-gold mb-2"><i class="fa-solid fa-code-compare"></i> Side-by-Side Analysis</span>
+          <h3 style="font-size: 2rem; font-weight: 800; color: var(--white); margin: 0.5rem 0;">Compare Up to 3 Banks Simultaneously</h3>
+          <p style="color: rgba(255,255,255,0.8); max-width: 620px;">
+            Evaluate ratings, branch networks, credit cards, digital apps, and loan profit rates side-by-side to make the smart financial choice.
+          </p>
+        </div>
+        <div>
+          <a href="compare.html" class="btn btn-gold btn-lg">
+            <i class="fa-solid fa-scale-balanced"></i> Launch Comparison Tool
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Loan Calculator Preview Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-calculator"></i> Precision Financing Engine</span>
+          <h2 class="section-title">Interactive Financing &amp; Loan Calculator</h2>
+          <p class="section-subtitle">
+            Calculate your estimated monthly installment with authentic calculation methods: Diminishing Musharakah, Car Ijarah, or Conventional Reducing Amortization.
+          </p>
+        </div>
+
+        <div class="calc-container">
+          <div class="calc-grid">
+            <!-- Form Input Panel -->
+            <div class="calc-form-panel">
+              <div class="calc-step-bar">
+                <span class="step-pill completed">1. Category</span>
+                <span class="step-pill completed">2. Bank</span>
+                <span class="step-pill completed">3. Product</span>
+                <span class="step-pill active">4-7. Financial Parameters</span>
+              </div>
+
+              <!-- Financing Category -->
+              <div class="form-group">
+                <label for="calcCategorySelect" class="form-label">
+                  <span>Step 1: Select Financing Category</span>
+                </label>
+                <select id="calcCategorySelect" class="form-control">
+                  <option value="home-financing" selected>Home Financing (Ghar / House)</option>
+                  <option value="auto-financing">Car Financing (Auto Loan / Ijarah)</option>
+                  <option value="personal-financing">Personal Financing (Cash Facility)</option>
+                  <option value="business-financing">Business / SME Working Capital</option>
+                  <option value="agriculture-financing">Agriculture Financing (Kissan Dost)</option>
+                </select>
+              </div>
+
+              <!-- Bank Selection -->
+              <div class="form-group">
+                <label for="calcBankSelect" class="form-label">
+                  <span>Step 2: Select Bank</span>
+                </label>
+                <select id="calcBankSelect" class="form-control">
+                  <!-- Populated dynamically -->
+                </select>
+              </div>
+
+              <!-- Product Selection -->
+              <div class="form-group">
+                <label for="calcProductSelect" class="form-label">
+                  <span>Step 3: Select Bank's Financing Product</span>
+                </label>
+                <select id="calcProductSelect" class="form-control">
+                  <!-- Populated dynamically -->
+                </select>
+              </div>
+
+              <!-- Amount Input & Slider -->
+              <div class="form-group">
+                <div class="form-label">
+                  <span>Step 4: Financing Amount (PKR)</span>
+                  <span id="calcAmountMinMax" class="helper">Min: PKR 500,000 | Max: PKR 50,000,000</span>
+                </div>
+                <input type="number" id="calcAmountInput" class="form-control" value="3500000" step="50000">
+                <input type="range" id="calcAmountRange" class="input-range" min="500000" max="20000000" value="3500000" step="50000">
+              </div>
+
+              <!-- Down Payment Input & Slider -->
+              <div class="form-group" id="downPaymentGroup">
+                <div class="form-label">
+                  <span>Step 5: Down Payment / Equity (PKR)</span>
+                  <span id="calcDownMinMax" class="helper">Min 20%: PKR 700,000</span>
+                </div>
+                <input type="number" id="calcDownPaymentInput" class="form-control" value="700000" step="25000">
+                <input type="range" id="calcDownPaymentRange" class="input-range" min="0" max="10000000" value="700000" step="25000">
+              </div>
+
+              <!-- Financing Duration (Years) -->
+              <div class="form-group">
+                <div class="form-label">
+                  <span>Step 6: Financing Tenure (Years)</span>
+                  <span id="calcTenureMinMax" class="helper">Min: 1 Yr | Max: 25 Yrs</span>
+                </div>
+                <input type="number" id="calcTenureInput" class="form-control" value="10" min="1" max="25">
+                <input type="range" id="calcTenureRange" class="input-range" min="1" max="25" value="10">
+              </div>
+            </div>
+
+            <!-- Result Panel -->
+            <div class="calc-result-panel">
+              <div>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span id="calcResultMethodBadge" class="badge badge-islamic">
+                    <i class="fa-solid fa-moon"></i> Islamic Diminishing Musharakah
+                  </span>
+                  <span class="badge badge-gold">Step 7: Calculation</span>
+                </div>
+
+                <div class="result-box-highlight">
+                  <div class="installment-title">Estimated Monthly Installment</div>
+                  <div class="installment-amount" id="calcMonthlyInstallment">PKR 0</div>
+                </div>
+
+                <div class="result-breakdown-table">
+                  <div class="result-breakdown-row">
+                    <span class="breakdown-label">Bank &amp; Product</span>
+                    <span class="breakdown-val"><span id="calcResultBankName">--</span> - <span id="calcResultProductName">--</span></span>
+                  </div>
+                  <div class="result-breakdown-row">
+                    <span class="breakdown-label">Net Financed Amount</span>
+                    <span class="breakdown-val" id="calcResultFinancedAmount">PKR 0</span>
+                  </div>
+                  <div class="result-breakdown-row">
+                    <span class="breakdown-label">Customer Down Payment</span>
+                    <span class="breakdown-val" id="calcResultDownPayment">PKR 0</span>
+                  </div>
+                  <div class="result-breakdown-row">
+                    <span class="breakdown-label">Financing Duration</span>
+                    <span class="breakdown-val" id="calcResultDuration">--</span>
+                  </div>
+                  <div class="result-breakdown-row">
+                    <span class="breakdown-label">Indicative Profit / Markup Rate</span>
+                    <span class="breakdown-val" id="calcResultProfitRate">--</span>
+                  </div>
+                  <div class="result-breakdown-row">
+                    <span class="breakdown-label" id="calcResultProfitLabel">Total Estimated Profit</span>
+                    <span class="breakdown-val" id="calcResultTotalProfit">PKR 0</span>
+                  </div>
+                  <div class="result-breakdown-row">
+                    <span class="breakdown-label">Total Payable Over Tenure</span>
+                    <span class="breakdown-val" id="calcResultTotalPayable" style="color: var(--gold);">PKR 0</span>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="calc-disclaimer">
+                  <p><strong>Eligibility:</strong> <span id="calcResultEligibility">--</span></p>
+                  <p style="margin-top: 0.35rem;"><strong>Source:</strong> <span id="calcResultSource">--</span> (<span id="calcResultLastUpdated">--</span>)</p>
+                  <p style="margin-top: 0.35rem; font-size: 0.725rem; opacity: 0.8;">
+                    *Calculation is illustrative based on prevailing benchmark KIBOR rates. Actual bank offerings are subject to credit approval and updated Schedule of Charges.
+                  </p>
+                </div>
+                <div style="margin-top: 1.25rem;">
+                  <a href="calculator.html" class="btn btn-gold btn-sm" style="width: 100%;">
+                    Open Full Advanced Schedule &amp; Amortization <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Banking Articles / Blog Section -->
+    <section class="section" style="background-color: #FFFFFF;">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-newspaper"></i> Knowledge Base</span>
+          <h2 class="section-title">Latest Banking Insights &amp; Guides</h2>
+          <p class="section-subtitle">
+            In-depth analysis of Pakistan's banking sector, State Bank guidelines, Shariah principles, and consumer financing advice.
+          </p>
+        </div>
+
+        <div class="blog-grid" id="homeBlogGrid">
+          <!-- Rendered dynamically -->
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="blogs.html" class="btn btn-outline btn-lg">
+            Read All Banking Guides <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions -->
+    <section class="section" style="background-color: var(--bg-light);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-circle-question"></i> FAQ</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">
+            Essential answers on banking, Shariah compliance, and consumer loans in Pakistan.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item active">
+            <button class="faq-question">
+              <span>What is the difference between a full-fledged Islamic bank and an Islamic banking window?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer" style="max-height: 250px;">
+              <p>
+                A <strong>full-fledged Islamic bank</strong> (such as Meezan Bank, Faysal Bank, BankIslami, and Dubai Islamic Bank) operates 100% of its branches, treasury, and capital under strict Shariah supervision with zero conventional interest-bearing activities. In contrast, an <strong>Islamic banking window</strong> is a segregated, Shariah-compliant branch network operated by a mainstream conventional commercial bank (such as HBL Islamic or UBL Ameen), where capital and operations for Islamic accounts are strictly ring-fenced.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What is KIBOR and how does it affect home and car financing?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                <strong>KIBOR (Karachi Interbank Offered Rate)</strong> is the benchmark interest rate at which banks in Pakistan lend unsecured funds to each other. In Pakistan, almost all long-term consumer loans (like auto financing and housing finance) use a floating rate formula such as <em>1-Year KIBOR + Bank Spread (e.g. 2.50%)</em>. When KIBOR changes according to State Bank monetary policy, your monthly installment adjusts at each annual or semi-annual reset date.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How does Islamic Diminishing Musharakah work for home buying?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                In <strong>Diminishing Musharakah</strong>, the bank and customer enter into a joint equity partnership to purchase the property. The asset is divided into ownership units. As the customer, you pay monthly rent to the bank for utilizing its portion of the home, while simultaneously purchasing the bank's equity units each month. As your ownership percentage grows, your monthly rental drops until you own 100% of the property title.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What is SBP Raast and how do I register for Raast ID?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Raast is the State Bank of Pakistan's instant retail payment system. It connects all banks in Pakistan and enables free, instant funds transfers within seconds. You can link your Pakistani mobile phone number directly to your bank account as your <em>Raast ID</em> through your bank's mobile app, allowing anyone to send money directly to your phone number without typing a long IBAN.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What documents are required to apply for personal or auto financing?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Typically, banks require:
+                1) Valid CNIC or NICOP copy,
+                2) Proof of income (last 3-6 months bank statement showing salary or business turnover),
+                3) Salary certificate / pay slips,
+                4) Proof of residence (recent paid utility bill), and
+                5) Clean State Bank e-CIB report verifying no past loan defaults.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Branding & Intro -->
+        <div>
+          <div class="brand-logo mb-3">
+            <img src="assets/images/bank-crest.svg" alt="Banking Hub Logo" class="brand-crest" width="40" height="40">
+            <div class="brand-text">
+              <span class="brand-title" style="color: var(--white);">BANKING <span style="color: var(--gold);">HUB</span></span>
+              </div>
+          </div>
+          <p style="font-size: 0.875rem; line-height: 1.6; margin-bottom: 1.5rem; color: rgba(255,255,255,0.7);">
+            Banking Hub is an independent, non-governmental directory and financial education platform designed to help citizens and overseas Pakistanis discover, evaluate, and compare banks across Pakistan.
+          </p>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="https://facebook.com" class="btn-icon btn-outline" style="color: var(--white); border-color: rgba(255,255,255,0.2);" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com" class="btn-icon btn-outline" style="color: var(--white); border-color: rgba(255,255,255,0.2);" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://linkedin.com" class="btn-icon btn-outline" style="color: var(--white); border-color: rgba(255,255,255,0.2);" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Categories -->
+        <div>
+          <h4 class="footer-col-title">Banking Categories</h4>
+          <ul class="footer-links">
+            <li><a href="categories/islamic-banking.html" class="footer-link">Islamic Banking</a></li>
+            <li><a href="categories/conventional-banking.html" class="footer-link">Conventional Banking</a></li>
+            <li><a href="categories/digital-banking.html" class="footer-link">Digital Banking &amp; Raast</a></li>
+            <li><a href="categories/home-financing.html" class="footer-link">Home Financing</a></li>
+            <li><a href="categories/auto-financing.html" class="footer-link">Auto Financing</a></li>
+            <li><a href="categories/personal-financing.html" class="footer-link">Personal Financing</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Quick Navigation -->
+        <div>
+          <h4 class="footer-col-title">Platform Tools</h4>
+          <ul class="footer-links">
+            <li><a href="banks.html" class="footer-link">Explore All Banks</a></li>
+            <li><a href="calculator.html" class="footer-link">Loan &amp; Financing Calculator</a></li>
+            <li><a href="compare.html" class="footer-link">Bank Comparison Matrix</a></li>
+            <li><a href="blogs.html" class="footer-link">Guides &amp; Articles</a></li>
+            </ul>
+        </div>
+
+        <!-- Col 4: Regulatory Disclaimers & Updates -->
+        <div>
+          <h4 class="footer-col-title">Regulatory Framework</h4>
+          <p style="font-size: 0.85rem; color: rgba(255,255,255,0.7); line-height: 1.6; margin-bottom: 1rem;">
+            All commercial banks listed on this portal operate under the statutory regulation of the <strong>State Bank of Pakistan (SBP)</strong>.
+          </p>
+          <div style="background: rgba(255,255,255,0.06); padding: 0.85rem; border-radius: 8px; border-left: 3px solid var(--gold);">
+            <div style="font-size: 0.775rem; color: var(--gold); font-weight: 700;">INDEPENDENT PLATFORM</div>
+            <div style="font-size: 0.75rem; color: rgba(255,255,255,0.7); margin-top: 0.25rem;">
+              Not an official SBP or banking subsidiary. Product rates are illustrative and subject to bank terms.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Disclaimer -->
+      <div class="footer-disclaimer-box">
+        <strong>Important Disclaimer:</strong> Banking Hub is an independent informational and research portal. Information provided, including bank ratings, branch networks, and financing profit calculations, is gathered from public Schedule of Bank Charges (SOBC) and State Bank of Pakistan reports. Actual loan approvals, markup rates, profit sharing ratios, and fees vary based on credit assessments and official bank guidelines. Never disclose your PIN, ATM OTP, or passwords to anyone.
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="currentYear">2026</span> Banking Hub. All rights reserved.
+        </div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Terms of Service</a>
+          <a href="#" class="footer-link">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/data-store.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/calculator.js"></script>
+
+  <!-- Homepage Dynamic Data Loader -->
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      // 1. Render Categories
+      const categories = await PBH.getCategories();
+      const catContainer = document.getElementById('homeCategoriesGrid');
+      if (catContainer && categories) {
+        catContainer.innerHTML = categories.slice(0, 6).map(cat => `
+          <a href="${cat.url}" class="category-card">
+            <div class="category-icon-box" style="background-color: ${cat.color}20; color: ${cat.color};">
+              <i class="fa-solid ${cat.icon}"></i>
+            </div>
+            <h3 class="category-card-title">${cat.name}</h3>
+            <p class="category-card-desc">${cat.short_description}</p>
+            <div class="category-card-footer">
+              <span class="category-bank-count">${cat.badge}</span>
+              <span class="category-arrow-link">Explore <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+          </a>
+        `).join('');
+      }
+
+      // 2. Render Featured Islamic Banks
+      const banks = await PBH.getBanks();
+      const islamicContainer = document.getElementById('featuredIslamicGrid');
+      if (islamicContainer && banks) {
+        const islamicBanks = banks.filter(b => b.is_full_islamic).slice(0, 3);
+        islamicContainer.innerHTML = islamicBanks.map(b => `
+          <div class="bank-card">
+            <div class="bank-card-header">
+              <div class="bank-brand-block">
+                <div class="bank-logo-avatar" style="background-color: ${b.accent_color}">
+                  ${b.logo_text}
+                </div>
+                <div class="bank-identity">
+                  <h3 class="bank-name">${b.name}</h3>
+                  <span class="bank-rating"><i class="fa-solid fa-star text-gold"></i> Rating: ${b.rating}</span>
+                </div>
+              </div>
+            </div>
+            <div class="bank-tags">
+              <span class="badge badge-islamic"><i class="fa-solid fa-moon"></i> 100% Shariah Compliant</span>
+            </div>
+            <p class="bank-card-desc">${b.short_description}</p>
+            <div class="bank-info-table">
+              <div class="bank-info-row">
+                <span class="bank-info-label">Network</span>
+                <span class="bank-info-val">${b.branches}</span>
+              </div>
+              <div class="bank-info-row">
+                <span class="bank-info-label">Tagline</span>
+                <span class="bank-info-val"><em>"${b.tagline}"</em></span>
+              </div>
+            </div>
+            <div class="bank-card-actions">
+              <a href="bank/profile.html?id=${b.id}" class="btn btn-secondary btn-sm">
+                <i class="fa-solid fa-circle-info"></i> View Details
+              </a>
+              <a href="calculator.html?bank=${b.id}&category=home-financing" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-calculator"></i> Calculate
+              </a>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      // 3. Render Popular Conventional Commercial Banks
+      const convContainer = document.getElementById('featuredConventionalGrid');
+      if (convContainer && banks) {
+        const convBanks = banks.filter(b => !b.is_full_islamic).slice(0, 3);
+        convContainer.innerHTML = convBanks.map(b => `
+          <div class="bank-card">
+            <div class="bank-card-header">
+              <div class="bank-brand-block">
+                <div class="bank-logo-avatar" style="background-color: ${b.accent_color}">
+                  ${b.logo_text}
+                </div>
+                <div class="bank-identity">
+                  <h3 class="bank-name">${b.name}</h3>
+                  <span class="bank-rating"><i class="fa-solid fa-star text-gold"></i> Rating: ${b.rating}</span>
+                </div>
+              </div>
+            </div>
+            <div class="bank-tags">
+              <span class="badge badge-conventional"><i class="fa-solid fa-building-columns"></i> Conventional</span>
+              ${b.has_islamic_window ? `<span class="badge badge-gold"><i class="fa-solid fa-shield"></i> Islamic Window</span>` : ''}
+            </div>
+            <p class="bank-card-desc">${b.short_description}</p>
+            <div class="bank-info-table">
+              <div class="bank-info-row">
+                <span class="bank-info-label">Network</span>
+                <span class="bank-info-val">${b.branches}</span>
+              </div>
+              <div class="bank-info-row">
+                <span class="bank-info-label">Established</span>
+                <span class="bank-info-val">${b.established}</span>
+              </div>
+            </div>
+            <div class="bank-card-actions">
+              <a href="bank/profile.html?id=${b.id}" class="btn btn-secondary btn-sm">
+                <i class="fa-solid fa-circle-info"></i> View Details
+              </a>
+              <a href="compare.html" class="btn btn-outline btn-sm">
+                <i class="fa-solid fa-code-compare"></i> Compare
+              </a>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      // 4. Render Blogs Preview
+      const blogs = await PBH.getBlogs();
+      const blogContainer = document.getElementById('homeBlogGrid');
+      if (blogContainer && blogs) {
+        blogContainer.innerHTML = blogs.slice(0, 3).map(post => `
+          <article class="blog-card">
+            <div class="blog-card-media">
+              <img src="${post.featured_image}" alt="${post.title}" loading="lazy">
+              <span class="blog-card-category">${post.category}</span>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span><i class="fa-regular fa-calendar"></i> ${post.published_date}</span>
+                <span><i class="fa-regular fa-clock"></i> ${post.reading_time}</span>
+              </div>
+              <h3 class="blog-card-title">${post.title}</h3>
+              <p class="blog-card-desc">${post.excerpt}</p>
+              <div class="blog-card-footer">
+                <span style="color: var(--text-muted); font-size: 0.8rem;">By ${post.author}</span>
+                <a href="blog/article.html?id=${post.id}" class="btn btn-outline btn-sm">
+                  Read Article <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        `).join('');
+      }
+    });
+  </script>
+</body>
+</html>

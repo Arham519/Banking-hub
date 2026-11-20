@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="indigoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="600" height="450" rx="24" fill="url(#heroBg)"/>
+  
+  <!-- Subtle Grid Circles -->
+  <circle cx="300" cy="225" r="190" fill="none" stroke="#6366F1" stroke-opacity="0.12" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <circle cx="300" cy="225" r="135" fill="none" stroke="#38BDF8" stroke-opacity="0.1" stroke-width="1.5"/>
+  <circle cx="300" cy="225" r="85" fill="none" stroke="#F59E0B" stroke-opacity="0.15" stroke-width="2"/>
+
+  <!-- Glowing Ambient Orb behind Device -->
+  <circle cx="300" cy="210" r="110" fill="#4F46E5" fill-opacity="0.18" filter="url(#glow)"/>
+
+  <!-- Main Phone / Portal Device -->
+  <rect x="200" y="70" width="200" height="310" rx="28" fill="#0F172A" stroke="url(#indigoGrad)" stroke-width="2.5" filter="url(#glow)"/>
+  <rect x="215" y="85" width="170" height="280" rx="18" fill="#020617"/>
+  
+  <!-- Device Screen Header -->
+  <rect x="230" y="105" width="140" height="25" rx="6" fill="url(#indigoGrad)"/>
+  <text x="240" y="122" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">Banking Hub</text>
+  
+  <!-- Balance Card inside Device -->
+  <rect x="230" y="140" width="140" height="65" rx="10" fill="url(#goldAccent)"/>
+  <text x="240" y="158" font-family="'Inter', sans-serif" font-size="9" fill="#0F172A" font-weight="700">Verified Platform</text>
+  <text x="240" y="180" font-family="'Inter', sans-serif" font-size="15" fill="#0F172A" font-weight="800">100% Transparency</text>
+  <text x="240" y="195" font-family="'Inter', sans-serif" font-size="8.5" fill="#0F172A" font-weight="500">Islamic &amp; Commercial</text>
+
+  <!-- Quick Stat Bars -->
+  <rect x="230" y="215" width="140" height="30" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  <circle cx="245" cy="230" r="7" fill="url(#emeraldGrad)"/>
+  <rect x="260" y="226" width="90" height="8" rx="4" fill="#F8FAFC" fill-opacity="0.8"/>
+
+  <rect x="230" y="255" width="140" height="30" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  <circle cx="245" cy="270" r="7" fill="url(#cyanGrad)"/>
+  <rect x="260" y="266" width="70" height="8" rx="4" fill="#F8FAFC" fill-opacity="0.8"/>
+
+  <rect x="230" y="295" width="140" height="30" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  <circle cx="245" cy="310" r="7" fill="url(#indigoGrad)"/>
+  <rect x="260" y="306" width="80" height="8" rx="4" fill="#F8FAFC" fill-opacity="0.8"/>
+
+  <!-- Floating Glass Card Left (Islamic Finance) -->
+  <g transform="translate(42, 115)">
+    <rect width="148" height="92" rx="14" fill="#0F172A" fill-opacity="0.9" stroke="url(#emeraldGrad)" stroke-width="1.5" filter="url(#glow)"/>
+    <circle cx="30" cy="30" r="14" fill="url(#emeraldGrad)"/>
+    <path d="M30 22 L36 34 L24 34 Z" fill="#FDE047"/>
+    <text x="52" y="28" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Islamic Banking</text>
+    <text x="52" y="42" font-family="'Inter', sans-serif" font-size="9" fill="#94A3B8">Shariah Compliant</text>
+    <rect x="18" y="58" width="112" height="20" rx="5" fill="#065F46" fill-opacity="0.4"/>
+    <text x="25" y="72" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600" fill="#34D399">Zero Riba Models</text>
+  </g>
+
+  <!-- Floating Glass Card Right (Financing Calculator) -->
+  <g transform="translate(410, 175)">
+    <rect width="150" height="96" rx="14" fill="#0F172A" fill-opacity="0.9" stroke="url(#cyanGrad)" stroke-width="1.5" filter="url(#glow)"/>
+    <circle cx="30" cy="32" r="14" fill="url(#cyanGrad)"/>
+    <text x="25" y="36" font-family="'Inter', sans-serif" font-size="13" font-weight="900" fill="#0F172A">%</text>
+    <text x="52" y="30" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Loan Calculator</text>
+    <text x="52" y="44" font-family="'Inter', sans-serif" font-size="9" fill="#94A3B8">KIBOR + Amortization</text>
+    <rect x="18" y="62" width="114" height="20" rx="5" fill="#0891B2" fill-opacity="0.25"/>
+    <text x="24" y="75" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600" fill="#38BDF8">Instant Installment</text>
+  </g>
+
+  <!-- Floating Badge Bottom Left (Raast Instant) -->
+  <g transform="translate(55, 270)">
+    <rect width="135" height="62" rx="12" fill="#0F172A" fill-opacity="0.9" stroke="url(#indigoGrad)" stroke-width="1.5"/>
+    <circle cx="28" cy="31" r="12" fill="url(#indigoGrad)"/>
+    <text x="24" y="35" font-family="'Inter', sans-serif" font-size="11" font-weight="900" fill="#FFFFFF">⚡</text>
+    <text x="48" y="27" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">SBP Raast</text>
+    <text x="48" y="42" font-family="'Inter', sans-serif" font-size="8.5" fill="#A5B4FC">Instant Free P2P</text>
+  </g>
+</svg>
