@@ -47,10 +47,10 @@
   <text x="240" y="122" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">Banking Hub</text>
   
   <!-- Balance Card inside Device -->
-  <rect x="230" y="140" width="140" height="65" rx="10" fill="url(#goldAccent)"/>
-  <text x="240" y="158" font-family="'Inter', sans-serif" font-size="9" fill="#0F172A" font-weight="700">Verified Platform</text>
-  <text x="240" y="180" font-family="'Inter', sans-serif" font-size="15" fill="#0F172A" font-weight="800">100% Transparency</text>
-  <text x="240" y="195" font-family="'Inter', sans-serif" font-size="8.5" fill="#0F172A" font-weight="500">Islamic &amp; Commercial</text>
+  <rect x="225" y="140" width="150" height="65" rx="10" fill="url(#goldAccent)"/>
+  <text x="300" y="157" font-family="'Inter', sans-serif" font-size="8.5" fill="#0F172A" font-weight="700" text-anchor="middle" letter-spacing="0.5">INDEPENDENT PLATFORM</text>
+  <text x="300" y="177" font-family="'Inter', sans-serif" font-size="13" fill="#0F172A" font-weight="800" text-anchor="middle">100% Transparency</text>
+  <text x="300" y="193" font-family="'Inter', sans-serif" font-size="8.5" fill="#0F172A" font-weight="600" text-anchor="middle">Islamic &amp; Commercial</text>
 
   <!-- Quick Stat Bars -->
   <rect x="230" y="215" width="140" height="30" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>

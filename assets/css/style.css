@@ -1049,6 +1049,27 @@ ul, ol {
   gap: 1rem;
 }
 
+.bank-logo-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.bank-card-logo {
+  height: 48px;
+  width: auto;
+  max-width: 135px;
+  object-fit: contain;
+  border-radius: 8px;
+  transition: var(--transition);
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.06));
+}
+
+.bank-card:hover .bank-card-logo {
+  transform: scale(1.05);
+}
+
 .bank-logo-avatar {
   width: 52px;
   height: 52px;

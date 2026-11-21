@@ -1,0 +1,7 @@
+# Robots.txt for Pakistan Banking Hub
+# https://arham519.github.io/Banking-hub/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://arham519.github.io/Banking-hub/sitemap.xml

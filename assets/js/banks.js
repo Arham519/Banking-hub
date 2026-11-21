@@ -37,9 +37,7 @@ const PBH_Banks = (() => {
       <div class="bank-card" data-id="${bank.id}">
         <div class="bank-card-header">
           <div class="bank-brand-block">
-            <div class="bank-logo-avatar" style="background-color: ${bank.accent_color || '#0F172A'}">
-              ${bank.logo_text || bank.name.substring(0, 3)}
-            </div>
+            ${PBH.renderBankLogo(bank)}
             <div class="bank-identity">
               <h3 class="bank-name">${bank.name}</h3>
               <span class="bank-rating"><i class="fa-solid fa-star text-gold"></i> Rating: ${bank.rating}</span>

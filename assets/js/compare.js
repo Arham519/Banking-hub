@@ -31,12 +31,12 @@ const PBH_Compare = (() => {
           <button class="compare-remove-btn" title="Remove bank" onclick="PBH_Compare.removeBank('${bank.id}')">
             <i class="fa-solid fa-xmark"></i>
           </button>
-          <div class="bank-logo-avatar" style="background-color: ${bank.accent_color}; margin: 0 auto 0.75rem auto;">
-            ${bank.logo_text || bank.name.substring(0, 3)}
+          <div style="margin: 0 auto 0.75rem auto; display: flex; justify-content: center;">
+            ${PBH.renderBankLogo(bank, basePath)}
           </div>
           <h3 class="bank-name">${bank.name}</h3>
           <span class="badge ${bank.is_full_islamic ? 'badge-islamic' : 'badge-conventional'} mt-1">
-            ${bank.is_full_islamic ? 'Full-fledged Islamic' : 'Conventional'}
+            ${bank.is_full_islamic ? 'Full-Fledged Islamic' : 'Conventional'}
           </span>
           <div style="margin-top: 1rem;">
             <a href="${basePath}bank/profile.html?id=${bank.id}" class="btn btn-primary btn-sm" style="width: 100%;">

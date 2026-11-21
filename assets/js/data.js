@@ -42,29 +42,41 @@ const PBH = (() => {
     async getBanks() {
       if (_banks) return _banks;
       const fetched = await fetchJSON('data/banks.json');
-      _banks = fetched || (window.PBH_STATIC_DATA ? window.PBH_STATIC_DATA.banks : []);
+      _banks = fetched || (window.PBH_STORE ? window.PBH_STORE.banks : (window.PBH_STATIC_DATA ? window.PBH_STATIC_DATA.banks : []));
       return _banks;
     },
 
     async getCategories() {
       if (_categories) return _categories;
       const fetched = await fetchJSON('data/categories.json');
-      _categories = fetched || (window.PBH_STATIC_DATA ? window.PBH_STATIC_DATA.categories : []);
+      _categories = fetched || (window.PBH_STORE ? window.PBH_STORE.categories : (window.PBH_STATIC_DATA ? window.PBH_STATIC_DATA.categories : []));
       return _categories;
     },
 
     async getProducts() {
       if (_products) return _products;
       const fetched = await fetchJSON('data/financing-products.json');
-      _products = fetched || (window.PBH_STATIC_DATA ? window.PBH_STATIC_DATA.products : []);
+      _products = fetched || (window.PBH_STORE ? window.PBH_STORE.financingProducts : (window.PBH_STATIC_DATA ? (window.PBH_STATIC_DATA.financingProducts || window.PBH_STATIC_DATA.products) : []));
       return _products;
     },
 
     async getBlogs() {
       if (_blogs) return _blogs;
       const fetched = await fetchJSON('data/blogs.json');
-      _blogs = fetched || (window.PBH_STATIC_DATA ? window.PBH_STATIC_DATA.blogs : []);
+      _blogs = fetched || (window.PBH_STORE ? window.PBH_STORE.blogs : (window.PBH_STATIC_DATA ? window.PBH_STATIC_DATA.blogs : []));
       return _blogs;
+    },
+
+    renderBankLogo(bank, customPrefix) {
+      if (!bank) return '';
+      const prefix = typeof customPrefix === 'string' ? customPrefix : getBasePath();
+      const accent = bank.accent_color || '#0F172A';
+      const text = bank.logo_text || (bank.name ? bank.name.substring(0, 3) : 'BNK');
+      if (bank.logo) {
+        const logoSrc = bank.logo.startsWith('http') ? bank.logo : prefix + bank.logo;
+        return `<div class="bank-logo-wrap"><img src="${logoSrc}" alt="${bank.name} Logo" class="bank-card-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="bank-logo-avatar" style="display:none;background-color:${accent}">${text}</div></div>`;
+      }
+      return `<div class="bank-logo-avatar" style="background-color:${accent}">${text}</div>`;
     },
 
     async getBankById(id) {

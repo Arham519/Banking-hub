@@ -3,7 +3,7 @@
     "id": "meezan-bank",
     "name": "Meezan Bank",
     "legal_name": "Meezan Bank Limited",
-    "type": "Full-fledged Islamic",
+    "type": "Full-Fledged Islamic",
     "is_full_islamic": true,
     "has_islamic_window": false,
     "rating": "AAA / A-1+ (VIS)",
@@ -88,13 +88,14 @@
       "Salary slips / employment verification certificate",
       "Copy of recent utility bill for address verification",
       "Tax return copies / NTN certificate (for business owners)"
-    ]
+    ],
+    "logo": "assets/images/banks/meezan-bank.svg"
   },
   {
     "id": "faysal-bank",
     "name": "Faysal Bank",
     "legal_name": "Faysal Bank Limited",
-    "type": "Full-fledged Islamic",
+    "type": "Full-Fledged Islamic",
     "is_full_islamic": true,
     "has_islamic_window": false,
     "rating": "AA / A-1+ (PACRA)",
@@ -118,8 +119,8 @@
       "personal-financing",
       "business-financing"
     ],
-    "short_description": "Historically converted from conventional to a full-fledged Islamic bank in 2022, offering comprehensive Shariah solutions.",
-    "long_description": "Faysal Bank achieved a historic global milestone in December 2022 by transitioning 100% of its operations from conventional banking to full-fledged Islamic banking. It offers Noor Islamic cards, Shariah home finance, auto Ijarah, and digital banking services.",
+    "short_description": "Historically converted from conventional to a Full-Fledged Islamic bank in 2022, offering comprehensive Shariah solutions.",
+    "long_description": "Faysal Bank achieved a historic global milestone in December 2022 by transitioning 100% of its operations from conventional banking to Full-Fledged Islamic banking. It offers Noor Islamic cards, Shariah home finance, auto Ijarah, and digital banking services.",
     "highlights": [
       "World's largest complete bank conversion to Islamic banking",
       "Noor Islamic Credit Cards with Shariah-compliant Ujrah structure",
@@ -177,13 +178,14 @@
       "Salary certificate & 6-month bank statement",
       "Proof of residence (utility bill)",
       "2 passport-sized photographs"
-    ]
+    ],
+    "logo": "assets/images/banks/faysal-bank.svg"
   },
   {
     "id": "bankislami-pakistan",
     "name": "BankIslami",
     "legal_name": "BankIslami Pakistan Limited",
-    "type": "Full-fledged Islamic",
+    "type": "Full-Fledged Islamic",
     "is_full_islamic": true,
     "has_islamic_window": false,
     "rating": "AA- / A-1 (PACRA)",
@@ -253,13 +255,14 @@
       "CNIC copy",
       "Proof of income / 6-month bank statement",
       "Employment letter or tax registration certificate"
-    ]
+    ],
+    "logo": "assets/images/banks/bankislami-pakistan.svg"
   },
   {
     "id": "dubai-islamic-bank",
     "name": "Dubai Islamic Bank",
     "legal_name": "Dubai Islamic Bank Pakistan Limited",
-    "type": "Full-fledged Islamic",
+    "type": "Full-Fledged Islamic",
     "is_full_islamic": true,
     "has_islamic_window": false,
     "rating": "AA / A-1+ (VIS)",
@@ -283,7 +286,7 @@
       "business-financing"
     ],
     "short_description": "Wholly owned subsidiary of UAE's Dubai Islamic Bank, bringing international Shariah excellence to Pakistan.",
-    "long_description": "Dubai Islamic Bank Pakistan Limited (DIBPL) is a wholly owned subsidiary of Dubai Islamic Bank UAE, the world's first full-fledged Islamic bank. DIBPL combines international Islamic banking heritage with localized products like Al-Islami Home Finance and Auto Finance.",
+    "long_description": "Dubai Islamic Bank Pakistan Limited (DIBPL) is a wholly owned subsidiary of Dubai Islamic Bank UAE, the world's first Full-Fledged Islamic bank. DIBPL combines international Islamic banking heritage with localized products like Al-Islami Home Finance and Auto Finance.",
     "highlights": [
       "Backed by the world's first Islamic bank (DIB UAE)",
       "High-end Priority Banking (Wajaha Banking) services",
@@ -329,13 +332,14 @@
       "CNIC copy",
       "Salary slip & 6-month bank statement",
       "Proof of residence"
-    ]
+    ],
+    "logo": "assets/images/banks/dubai-islamic-bank.svg"
   },
   {
     "id": "mcb-islamic-bank",
     "name": "MCB Islamic Bank",
     "legal_name": "MCB Islamic Bank Limited",
-    "type": "Full-fledged Islamic",
+    "type": "Full-Fledged Islamic",
     "is_full_islamic": true,
     "has_islamic_window": false,
     "rating": "A+ / A-1 (PACRA)",
@@ -405,13 +409,14 @@
       "CNIC copy",
       "Salary slips and bank statements",
       "Utility bills for address verification"
-    ]
+    ],
+    "logo": "assets/images/banks/mcb-islamic-bank.svg"
   },
   {
     "id": "albaraka-bank",
     "name": "AlBaraka Bank",
     "legal_name": "Al Baraka Bank (Pakistan) Limited",
-    "type": "Full-fledged Islamic",
+    "type": "Full-Fledged Islamic",
     "is_full_islamic": true,
     "has_islamic_window": false,
     "rating": "A+ / A-1 (PACRA)",
@@ -480,7 +485,8 @@
       "CNIC copy",
       "Proof of employment / income",
       "Bank statements"
-    ]
+    ],
+    "logo": "assets/images/banks/albaraka-bank.svg"
   },
   {
     "id": "hbl-pakistan",
@@ -572,7 +578,8 @@
       "6-month bank statement",
       "Employment confirmation letter",
       "Utility bill photocopy"
-    ]
+    ],
+    "logo": "assets/images/banks/hbl-pakistan.svg"
   },
   {
     "id": "ubl-pakistan",
@@ -662,7 +669,8 @@
       "Salary slips for past 3 months",
       "Bank statement for past 6 months",
       "Proof of address"
-    ]
+    ],
+    "logo": "assets/images/banks/ubl-pakistan.svg"
   },
   {
     "id": "mcb-bank",
@@ -750,7 +758,8 @@
       "Copy of CNIC",
       "Salary certificate & 6-month bank statement",
       "Utility bill copy"
-    ]
+    ],
+    "logo": "assets/images/banks/mcb-bank.svg"
   },
   {
     "id": "allied-bank",
@@ -838,7 +847,8 @@
       "Copy of CNIC",
       "Salary certificate & 6-month bank statement",
       "Utility bill copy"
-    ]
+    ],
+    "logo": "assets/images/banks/allied-bank.svg"
   },
   {
     "id": "bank-alfalah",
@@ -928,7 +938,8 @@
       "Latest salary slip or income tax returns",
       "Last 6 months bank statement",
       "Utility bill photocopy"
-    ]
+    ],
+    "logo": "assets/images/banks/bank-alfalah.svg"
   },
   {
     "id": "askari-bank",
@@ -1013,7 +1024,8 @@
       "CNIC copy",
       "Salary slips and 6-month bank statement",
       "Utility bill"
-    ]
+    ],
+    "logo": "assets/images/banks/askari-bank.svg"
   },
   {
     "id": "nbp-pakistan",
@@ -1099,7 +1111,8 @@
       "CNIC copy",
       "Department salary slip / employment certificate",
       "Utility bill photocopy"
-    ]
+    ],
+    "logo": "assets/images/banks/nbp-pakistan.svg"
   },
   {
     "id": "standard-chartered-pakistan",
@@ -1179,7 +1192,8 @@
       "CNIC copy",
       "Proof of substantial income / audited accounts",
       "Bank statements"
-    ]
+    ],
+    "logo": "assets/images/banks/standard-chartered-pakistan.svg"
   },
   {
     "id": "bank-of-punjab",
@@ -1257,7 +1271,8 @@
       "CNIC copy",
       "Salary slips & bank statement",
       "Proof of address"
-    ]
+    ],
+    "logo": "assets/images/banks/bank-of-punjab.svg"
   },
   {
     "id": "js-bank",
@@ -1335,6 +1350,7 @@
       "CNIC copy",
       "Salary certificate & 6-month bank statement",
       "Utility bill photocopy"
-    ]
+    ],
+    "logo": "assets/images/banks/js-bank.svg"
   }
 ]
